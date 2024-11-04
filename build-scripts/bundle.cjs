@@ -339,9 +339,6 @@ module.exports.config = {
       publicPath: publicPath(latestBuild),
       isProdBuild,
       latestBuild,
-      defineOverlay: {
-        __DEMO__: true,
-      },
     };
   },
 };
